@@ -15,13 +15,16 @@
     var element = container.querySelectorAll("h1")
     console.log(element)
 
-    function check()
+    function check(event)
     {
-      enteredText = event.target.value
+      enteredText = event.target.value.toUpperCase()
 
       for(var i=0;i<elements.length;i++){
-      if(element[i].textContent.indexOf(enteredText) < 0){
+      if(element[i].textContent.toUpperCase().indexOf(enteredText) < 0){
        elements[i].style.display = "none"
+      }
+      else{
+        element[i].style.dispaly="block"
       }
     }
       
