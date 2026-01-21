@@ -131,6 +131,36 @@ body{
     color: aliceblue;
 
 }
+.product section{
+    margin-top: 20px;
+}
+.product-serach{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+
+}
+.product-serach input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-serach input :focus{
+    outline: none;
+
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 /* Media Query */
 @media  screen and (max-width=700px) {
     .navbar-menu-toggle{
