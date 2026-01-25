@@ -164,7 +164,10 @@ body{
 .products.box{
     text-align: center;
     flex-basis: 20%;
-    
+
+}
+.product.box image{
+    border-radius: 10px;
 }
 /* Media Query */
 @media  screen and (max-width=700px) {
